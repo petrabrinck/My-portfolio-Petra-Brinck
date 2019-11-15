@@ -1,0 +1,328 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    
+ }
+ 
+ header {
+    height: 508px;
+    width: 375;
+    /* The hero image */
+    /* The "linear-gradient" gives a darker feeling to the her image*/
+    /* Image / copied the relative path for the pic */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/andras-vas.jpg");
+    background-repeat: no-repeat;
+    /* To make the her picture cover the screen */
+    background-size: cover;
+    /*background-position: center;*/
+    /* The image change size on all screens */
+    position: relative;
+    color: aliceblue;
+    
+ }
+ 
+ /*h6 .portfolio {
+    top: 176px;
+    left: 69px;
+    width: 53px;
+    height: 15px;
+    /* UI Properties 
+    text-align: left;
+    font: Regular 13px/15px Roboto;
+    letter-spacing: 0.52px;
+    color: #FFFFFF;
+    opacity: 1;
+ }*/
+ 
+ 
+ /* second update name */ 
+ .portfolioName {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -30px;
+ }
+ 
+ p.portfolio {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    letter-spacing: 0,52px;
+    color: #ffffff;
+    opacity: 1;
+    text-shadow: 2px 2px 2px grey;
+ }
+ 
+ /*layout properties */
+ p.name {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 0,52px;
+    color: #ffffff;
+    opacity: 1;
+    width: 100%;
+    position: relative;
+    left: 19px;
+    text-shadow: 2px 2px 2px grey;
+ }
+ 
+ /* frontend developer text */
+ h1 {
+    top: 196px;
+    left: 78px;
+    width: 71px;
+    height: 49px;
+    /* UI Properties */
+    text-align: left;
+    font: Bold 40px/49px Montserrat;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+    padding-bottom: 20px;
+ }
+ 
+ /*project manager text */
+ h3 {
+    top: 296px;
+    left: 41px;
+    width: 219px;
+    height: 29px;
+    /* UI Properties */
+    text-align: left;
+    font: Bold 24px/29px Montserrat;
+    /*font: Bold 24px/29px Montserrat;*/
+    letter-spacing: 0;
+    color: #fff;
+    opacity: 1;
+    padding-top: 10px;
+ }
+ 
+ /* pic petra */
+ img {
+    border-radius: 100%;
+    top: 359px; 
+    left: 176px; 
+    width: 162px;
+    height: 162px;
+ /* UI Properties */
+    background: transparent url('/assets/petra.jpg') 0% 0% no-repeat padding-box;
+    border: 3px solid #FFFFFF;
+    opacity: 1;  
+    position: absolute;
+ }
+ 
+ .hero-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 130px 0;
+    /*align-content: center;
+    text-align: center;*/
+ }
+  
+ .summary-section p {
+    top: 571px;
+    left: 37px;
+    width: 302px;
+    height: 228px;
+    /* UI Properties */
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+    padding: 28px 37px 56px 37px;
+    background-color: #f4f4f4;
+    margin-top: 0;
+ }
+ 
+ .summary-section {
+    top: 513px;
+    left: -1.0767822265625px;
+    width: 377px;
+    height: 342px;
+    /* UI Properties 
+    background: #F4F4F4 0% 0% no-repeat padding-box;
+    opacity: 1;*/
+ }
+ /*** SECTIONS ********/
+ 
+ .tech-section div {
+    top: 915px;
+    left: 135px;
+    width: 82px;
+    height: 33px;
+    /* UI Properties */
+    background: #FA382F 0% 0% no-repeat padding-box;
+    opacity: 1;
+    text-align: center;
+    padding-top: 7px;
+ }
+ 
+ /* RED headline */
+ .tech-section {
+    top: 917px;
+    left: 145px;
+    width: 62px;
+    height: 27px;
+ /* UI Properties */
+    text-align: left;
+    font-size:22px; 
+    font-weight: bold;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-left: 150px;
+    margin-top: 30px; 
+    margin-bottom: 40px; 
+ }
+ 
+ /*text - TECH - HTML,CSS */
+ p {
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    scroll-padding-bottom: 60px;
+ }
+ 
+ /****** FEATURED PROJECTS *******/
+ 
+ .feature-container {
+   top: 1212px;
+   left: -2.2335205078125px;
+   width: 377px;
+   height: 1357px;
+   /* UI Properties */
+   background: #F4F4F4 0% 0% no-repeat padding-box;
+   opacity: 1;
+ }
+  .feature-heading {
+    top: 1271px;
+    left: 59px;
+    width: 258px;
+    height: 27px;
+ /* UI Properties */
+    text-align: left;
+    font-size: 22px;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+    background-color: #f4f4f4;
+   /*margin-top: 100px;*/
+ }
+
+ .feature-heading div {
+    top: 1269px;
+    left: 53px;
+    width: 269px;
+    height: 33px;
+ /* UI Properties */
+    background: #FA382F 0% 0% no-repeat padding-box;
+    opacity: 1;
+    text-align: center;
+    padding-top: 7px;
+    margin-left: 50px;
+ }
+
+.feature-subheading {
+   top: 0px;
+   left: 0px;
+   width: 117px;
+   height: 20px;
+   /* UI Properties */
+   text-align: left;
+   font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   font-size: 17px;
+   letter-spacing: 0;
+   color: #FA382F;
+ 
+}
+
+ 
+ /*
+ .featured-projects-weatherapp {
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font: Regular 29px Montserrat;
+    font-size: 17px;
+ }
+ .featured-projects-newssite {
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font: Regular 29px Montserrat;
+    font-size: 17px;
+ }
+ .featured-projects-cluedo {
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font: Regular 29px Montserrat;
+    font-size: 17px;
+ }
+ .my-thoughts {
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font: Regular 29px Montserrat;
+    font-size: 17px;
+ }
+ 
+ /*body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    background-color: snow;
+ }
+ header {
+    height: 20px;
+    width: 100px;
+    background-image: repeating-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/assets/IMG_1408.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+ }
+      
+ img {
+    width: 100%;
+    height: 30%;
+    background-image: ('assets/IMG_1408.jpeg')
+ }
+    
+ 
+ 
+ /*.hero-imag {
+    background-image: url('');
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+ 
+ h6 .name {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: azure;
+ }
+ /* header 
+ /*name 
+ /*frontend
+ /* foto
+ border radius: 100px; 
+ 
+ footer  {
+    justify-content: space-between;
+    text-align: center;
+    
+ }*/
+
+
+
