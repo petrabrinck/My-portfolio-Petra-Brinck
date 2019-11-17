@@ -135,27 +135,67 @@ body {
     background: #F4F4F4 0% 0% no-repeat padding-box;
     opacity: 1;*/
  }
- /*** SECTIONS ********/
+
+ .tech-section div {
+   top: 915px;
+   left: 135px;
+   width: 82px;
+   height: 33px;
+   /* UI Properties */
+   background: #FA382F 0% 0% no-repeat padding-box;
+   opacity: 1;
+   text-align: center;
+   padding-top: 7px;
+}
+
+/* RED headline */
+.tech-section {
+   top: 917px;
+   left: 145px;
+   width: 62px;
+   height: 27px;
+/* UI Properties */
+   text-align: left;
+   font-family: 'Montserrat', sans-serif;
+   font-size:22px; 
+   font-weight: bold;
+   letter-spacing: 0;
+   color: #FFFFFF;
+   opacity: 1;
+   margin-left: 150px;
+   margin-top: 30px; 
+}
+
+/*text - TECH - HTML,CSS */
+
+.tech-languages p {
+   text-align: center;
+   padding-top: 20px;
+   font-family: 'Montserrat', sans-serif;
+   padding-bottom: 40px;
+}
+
+ /*** OLD SECTIONS ********
  
  .tech-section div {
     top: 915px;
     left: 135px;
     width: 82px;
     height: 33px;
-    /* UI Properties */
+    /* UI Properties *
     background: #FA382F 0% 0% no-repeat padding-box;
     opacity: 1;
     text-align: center;
     padding-top: 7px;
  }
  
- /* RED headline */
+ /* RED headline *
  .tech-section {
     top: 917px;
     left: 145px;
     width: 62px;
     height: 27px;
- /* UI Properties */
+ /* UI Properties 
     text-align: left;
     font-size:22px; 
     font-weight: bold;
@@ -174,14 +214,200 @@ body {
     padding-bottom: 60px;
  }
  
- /****** FEATURED PROJECTS *******/
+ /****** FEATURED PROJECTS 
+
+.featured-projects {
+   top: 1271px;
+   left: 59px;
+   width: 258px;
+   height: 27px;
+/* UI Properties 
+   text-align: left;
+   font-size: 22px;
+   letter-spacing: 0;
+   color: #FFFFFF;
+   opacity: 1;
+}
+
+.featured-projects div {
+   top: 1269px;
+   left: 53px;
+   width: 269px;
+   height: 33px;
+/* UI Properties 
+   background: #FA382F 0% 0% no-repeat padding-box;
+   opacity: 1;
+   text-align: center;
+   padding-top: 7px;
+   margin-left: 50px;
+   margin-top: 50px;  
+}*/
+
+/****** TEST --- FEATURED PROJECTS *******/
+
+.featured-container {
+   top: 1212px;
+   left: -2.2335205078125px;
+   width: 377px;
+   height: 1357px;
+/* UI Properties */
+   background: #F4F4F4 0% 0% no-repeat padding-box;
+   -webkit-margin-top-collapse: separate;
+}
+
+.feature-heading p {
+   top: 1271px;
+   left: 59px;
+   width: 258px;
+   height: 24px;
+   /* UI Properties*/
+   text-align: center;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bold;
+   font-size: 22px;
+   letter-spacing: 0;
+}
+
+.feature-heading p {
+   top: 1269px;
+   left: 53px;
+   width: 269px;
+   height: 22px;
+   /* UI Properties */
+   background: #FA382F 0% 0% no-repeat padding-box;
+   opacity: 1;
+   margin-top: 59px;
+   margin-left: 48px;
+   margin-right: 58px;
+   color: #FFFFFF;
+   padding: 7px;
+}
+.projects img {
+   left: 36px;
+   width: 303px;
+   height: 179px;
+   filter: brightness(60%);
+   padding-left: 40px;
+}
+
+.hero-text {
+   top: 1330px;
+   left: 185px;
+   width: 132px;
+   height: 30px;
+/* UI Properties */
+   text-align: left;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700px;
+   font-size: 16px;
+   letter-spacing: 0;
+   color: #FDDFE7;
+  
+   position: absolute;
+   transform: translate(-50%, -50%)
+}
+/*.hero-text {
+   position: absolute;
+   font-weight: 700px;
+   top: 35px;
+   transform: translate(-50%, -50%)
+}*/
+
+/*.project-info {
+   top: 571px;
+   left: 37px;
+   width: 303px;
+   height: 120px;
+   text-align: left;
+   align-items: left;
+}*/
+
+.weather-app-subheader {
+   top: 0px;
+   left: 0px;
+   width: 117px;
+   height: 20px;
+   /* UI Properties */
+   text-align: left;
+   font: Bold 17px/29px Roboto;
+   letter-spacing: 0;
+   color: #FA382F;
+   display: flex;
+   flex-direction: row;
+   padding-left: 40px;
+   
+}
+
+.weather-app-info {
+   width: 250px;
+   text-align: left;
+   font-size: 17px;
+   font-family: 'Montserrat', sans-serif;
+   letter-spacing: 0;
+   color: #000000;
+   display: flex;
+   flex-direction: row;
+   padding-left: 40px;
+}
+
+.project-languages p {
+   height: 17px;
+   font-size: 17px; 
+   border: 1px solid #FDDFE7;
+   font-family: 'Montserrat', sans-serif;
+   opacity: 1;
+   background: #FDDFE7;
+   text-align: center;
+   display: inline-flex;
+   flex-direction: row;
+   margin: 2px;
+   justify-content: space-evenly; 
+}
+.container-skills {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   width: 100%;
+
+}
+.skills {
+   width: 100px;
+   background-color: #FA382F;
+   text-align: center;
+  
+}
+.skills-content {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   width: 100%;
+}
+
+li {
+   list-style-type: none;
+   text-align: center;
+   padding:3px;
+}
+/* header 
+/*name 
+/*frontend
+/* foto
+border radius: 100px; 
+
+footer  {
+   justify-content: space-between;
+   text-align: center;
+   
+}*/
+
+ /****** OLD FEATURED PROJECTS *******
  
  .feature-container {
    top: 1212px;
    left: -2.2335205078125px;
    width: 377px;
    height: 1357px;
-   /* UI Properties */
+   /* UI Properties 
    background: #F4F4F4 0% 0% no-repeat padding-box;
    opacity: 1;
 }
@@ -191,7 +417,6 @@ body {
     left: 59px;
     width: 258px;
     height: 27px;
- /* UI Properties */
     text-align: left;
     font-size: 22px;
     letter-spacing: 0;
