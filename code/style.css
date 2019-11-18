@@ -245,11 +245,12 @@ body {
    padding-left: 40px;
 }
 
+/*--- sunny side up-text ---*/
 .hero-text {
    top: 1330px;
    left: 185px;
    width: 132px;
-   height: 30px;
+   height: 50px;
 /* UI Properties */
    text-align: left;
    font-family: 'Montserrat', sans-serif;
@@ -290,6 +291,7 @@ p.weather-app-subheader {
    flex-direction: row;
    padding-left: 40px;
 }
+
 /*--- TECH LANG USED IN WEATHER APP---*/
 
 .weather-app-lang {
@@ -639,11 +641,52 @@ li {
 .icon-red-text-stack {
    padding-left: 28px;
 }
-/*footer  {
-   justify-content: space-between;
+
+/*------ CONTACT INFO -----*/
+.contact-info-baseline {
+   top: 4875px;
+   left: -3px;
+   width: 378px;
+   height: 270px;
+   /* UI Properties */
+   opacity: 1;
+   background-color: blue;
    text-align: center;
-    
- }*/
+   letter-spacing: 0;
+   color: #FFFFFF;
+   opacity: 1;
+}
+p.contact-text {
+   top: 4938px;
+   left: 135px;
+   /*width: 106px;*/
+   height: 25px;
+   font: Bold 21px/25px Montserrat;
+   padding-top: 60px;
+}
+p.name-text {
+   top: 0px;
+   left: 92px;
+   /*width: 118px;*/
+   height: 20px;
+   text-align: center;
+   font: Bold 17px/29px Roboto;
+}
+
+p.number-text {
+   top: 29px;
+   left: 90px;
+   height: 20px;
+}
+
+p.email-text {
+   top: 29px;
+   left: 90px;
+   height: 20px;
+}
+
+
+
 
 
 
