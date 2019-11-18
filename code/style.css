@@ -16,17 +16,48 @@ body {
     background-size: cover;
     /*background-position: center;*/
     /* The image change size on all screens */
-    position: relative;
+    /*position: relative;*/
     color: aliceblue;   
  }
 
- /* second update name */ 
+.iconContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 0%;
+  /*position: relative;*/
+  z-index: 1;
+  bottom: 400px;
+}
+
+.icon {
+  margin-top: 10%;
+  width: 40px;
+  height: 39px;
+  border-radius: 100%;
+  border: 2px solid white;
+  margin-left: 7px;
+  margin-bottom: 15px;
+}
+
+.iconImg {
+  color: white;
+  position: relative;
+  top: 7px;
+  left: 9px;
+  width: 20px;
+  /*height: 20px;*/
+}
+
  .portfolioName {
     display: flex;
     flex-direction: row;
-    margin-bottom: -20px;
+    margin-bottom: -30px;
  }
  
+ .headerText {
+    margin-top: 5px;
+ }
  p.portfolio {
     text-align: left;
     font-family: 'Roboto', sans-serif;
@@ -73,7 +104,7 @@ body {
  h3 {
     top: 296px;
     left: 41px;
-    width: 219px;
+    /*width: 219px;*/
     height: 29px;
     /* UI Properties */
     text-align: left;
@@ -103,7 +134,7 @@ body {
  .hero-container {
     width: 80%;
     margin: 0 auto;
-    padding: 130px 0;
+    padding: 60px 0;
  }
   
  .summary-section p {
@@ -234,7 +265,7 @@ p.weather-app-subheader {
    top: 0px;
    left: 0px;
    width: 117px;
-   height: 20px;
+   height: 10px;
    text-align: left;
    font-family: 'Roboto', sans-serif;
    font-weight: 700px;
@@ -251,7 +282,6 @@ p.weather-app-subheader {
    left: 121px;
    width: 280px;
    height: 20px;
-   /* UI Properties */
    text-align: left;
    font: Regular 17px/29px Roboto;
    letter-spacing: 0;
@@ -261,12 +291,7 @@ p.weather-app-subheader {
    padding-left: 40px;
 }
 /*--- TECH LANG USED IN WEATHER APP---*/
-/*.weather-app-lang {
-   text-align: left;
-   display: flex;
-   flex-direction: row; 
-   padding-left: 40px;
-}*/
+
 .weather-app-lang {
    top: 1883px;
    left: 36px;
@@ -280,13 +305,12 @@ p.weather-app-subheader {
 
 .weather-app-languages p {
    top: 1954px;
-   height: 10px;
+   /*height: 10px;*/
    font: Regular 9px/10px Roboto;
-   border: 1px solid #FDDFE7;
+   border: 4px solid #FDDFE7;
    opacity: 1;
    background: #FDDFE7;
-   display: inline-flex;
-   
+   display: inline-flex;   
 }
 
 /*------ OTHER PROJECTS -----*/
@@ -317,7 +341,6 @@ p.weather-app-subheader {
    left: 38px;
    width: 301px;
    height: 103px;
-   /* UI Properties */
    opacity: 1;
 }
 
@@ -374,7 +397,7 @@ margin-bottom: -15px;
    top: 224px;
    left: 0px;
    width: 288px;
-   height: 20px;
+   height: 15px;
    text-align: left;
    font: Regular 17px/32px Roboto;
    padding-left: 40px;
@@ -415,25 +438,24 @@ margin-bottom: -15px;
    left: 38px;
    width: 301px;
    height: 103px;
-   /* UI Properties */
    opacity: 1;
    color: #FA382F;
 } 
 .blog-sep {
 color: #FA382F;
-margin-bottom: -15px;   
+margin-bottom: -10px;   
 }
 .blog-oct {
 color: #FA382F;
-margin-bottom: -15px;   
+margin-bottom: -10px;   
 }
 .blog-nov {
 color: #FA382F;
-margin-bottom: -15px;   
+margin-bottom: -10px;   
 }
 .blog-dec {
 color: #FA382F;
-margin-bottom: -15px;   
+margin-bottom: -10px;   
 }
 
 .blog-text {
@@ -448,19 +470,18 @@ margin-bottom: -15px;
 }
 
 
-/*------ SKILLS ------*/
+/*------ SKILLS -------------*/
 .skills-section {
    top: 3805px;
    left: 0px;
    width: 375px;
-   height: 774px;
-/* UI Properties */
+   /*height: 774px;*/
    background: #F4F4F4 0% 0% no-repeat padding-box;
    opacity: 1;
-   margin-top: 30px;
+   margin-top: 70px;
    padding-top: 10px;
 }
-
+/* container-background-grey*/
 .container-skills {
    display: flex;
    justify-content: center;
@@ -469,8 +490,7 @@ margin-bottom: -15px;
    top: 3805px;
    left: 0px;
    width: 375px;
-   height: 774px;
-   /* UI Properties */
+   height: 570px;
    background: #F4F4F4 0% 0% no-repeat padding-box;
    opacity: 1;
    align-content: flex-start;
@@ -487,7 +507,7 @@ color: #FA382F;
 
 .more-header {
 color: #FA382F;
-padding-left: 70px;
+
 }
 
 .upcoming-header {
@@ -499,7 +519,6 @@ color: #FA382F;
    left: 148px;
    width: 78px;
    height: 27px;
-   /* UI Properties */
    text-align: center;
    font: Bold 22px/27px Montserrat;
    letter-spacing: 0;
@@ -512,7 +531,7 @@ color: #FA382F;
    top: 1269px;
    left: 53px;
    width: 78px;
-   height: 22px;
+   height: 20px;
    /* UI Properties */
    background: #FA382F 0% 0% no-repeat padding-box;
    opacity: 1;
@@ -521,6 +540,7 @@ color: #FA382F;
    margin-right: 58px;
    color: #FFFFFF;
    padding: 7px;
+   padding-top: 2px;
 }
 
 .skills-content {
@@ -537,9 +557,18 @@ li {
 }
 
 /*---- FOR MORE ----*/
-.section-for-more {
-   margin-top: 10px;
+
+.for-more-section {
+   top: 0px;
+   left: 0px;
+   width: 375px;
+   height: 300px;
+   /* UI Properties */
+   background: #FFFFFF 0% 0% no-repeat padding-box;
+   opacity: 1;
+   padding-top: 30px;
 }
+
 .for-more-header {
    top: 4649px;
    left: 123px;
@@ -551,131 +580,22 @@ li {
    color: #FFFFFF;
    opacity: 1;
    padding-left: 120px;
-
 }
 
 .for-more-header p {
    top: 4646px;
    left: 122px;
    width: 131px;
-   height: 33px;
+   height: 30px;
    background: #FA382F 0% 0% no-repeat padding-box;
    opacity: 1;
-   margin-top: 10px;
+   padding-top: 2px;
 }
 
 
 /*footer  {
    justify-content: space-between;
    text-align: center;
-   
-}*/
-
- /****** OLD FEATURED PROJECTS *******
- 
- .feature-container {
-   top: 1212px;
-   left: -2.2335205078125px;
-   width: 377px;
-   height: 1357px;
-   /* UI Properties 
-   background: #F4F4F4 0% 0% no-repeat padding-box;
-   opacity: 1;
-}
-
-  .feature-heading {
-    top: 1271px;
-    left: 59px;
-    width: 258px;
-    height: 27px;
-    text-align: left;
-    font-size: 22px;
-    letter-spacing: 0;
-    color: #FFFFFF;
-    opacity: 1;
-    background-color: #f4f4f4;
-    padding-top: 45px; 
-}
-
- /*--- red background ---
- .feature-heading div {
-    top: 1269px;
-    left: 53px;
-    width: 269px;
-    height: 33px;
- /* UI Properties 
-    background: #FA382F 0% 0% no-repeat padding-box;
-    opacity: 1;
-    text-align: center;
-    padding-top: 7px;
-    margin-left: 50px;
- }
-
-.feature-subheading {
-   top: 0px;
-   left: 0px;
-   width: 117px;
-   height: 20px;
-   /* UI Properties 
-   text-align: left;
-   font-family: 'Roboto', sans-serif;
-   font-weight: 700px;
-   font-size: 17px;
-   letter-spacing: 0;
-   color: #FA382F;
-   flex-wrap: wrap;
-   flex-direction: row;
-   display: -webkit-inline-box;
-   
-}
-
-.weather-app {
-   top: 0px;
-   left: 0px;
-   width: 125px;
-   height: 20px;
-   /* UI Properties 
-   text-align: left;
-   font: Bold 17px/29px Roboto;
-   letter-spacing: 0;
-   color: #FA382F;
-   background-color: yellow;
-   display: flex;
-   flex-direction: row;
-   padding-left: 50px;
-   display: inline-block;
-   padding-bottom: 0px;
-}
-
-.weatherAppText { 
-   top: 0px;
-   left: 121px;
-   width: 297px;
-   height: 20px;
-   /* UI Properties 
-   text-align: left;
-   font-family: 'Roboto', sans-serif;
-   font-size: 17px;
-   letter-spacing: 0;
-   color: #000000;
-   display: flex;
-   flex-wrap: wrap;
-   flex-direction: row;
-   background-color: yellow;
-}
- 
-
- /*
- .featured-projects-weatherapp {
- .featured-projects-newssite {
- .featured-projects-cluedo {
- .my-thoughts {
- }
- 
- 
- footer  {
-    justify-content: space-between;
-    text-align: center;
     
  }*/
 
