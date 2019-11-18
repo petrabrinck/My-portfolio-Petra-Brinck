@@ -8,8 +8,7 @@ body {
     height: 508px;
     width: 375;
     /* The hero image */
-    /* The "linear-gradient" gives a darker feeling to the her image*/
-    /* Image / copied the relative path for the pic */
+    /* Image / from relative path */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/andras-vas.jpg");
     background-repeat: no-repeat;
     /* To make the her picture cover the screen */
@@ -123,8 +122,6 @@ body {
    left: 176px; 
    width: 162px;
    height: 162px;
-
-/* UI Properties */
    background: transparent url(/assets/petra.jpg) 0% 0% no-repeat padding-box;
    border: 3px solid #FFFFFF;
    opacity: 1;  
@@ -134,7 +131,7 @@ body {
  .hero-container {
     width: 80%;
     margin: 0 auto;
-    padding: 60px 0;
+    /*padding: 60px 0;*/
  }
   
  .summary-section p {
@@ -165,7 +162,6 @@ body {
    top: 915px;
    left: 135px;
    width: 82px;
-   /* UI Properties */
    background: #FA382F 0% 0% no-repeat padding-box;
    opacity: 1;
    text-align: center;
@@ -686,6 +682,67 @@ p.email-text {
 }
 
 
+/* ---- DESKTOP ---- */ 
+@media (min-width: 1024px) {
+  body {
+    width: 100%;
+    /*flex-direction: row;
+    flex-wrap: wrap;*/
+  }
+
+  header {
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+  }
+
+.headerTextContainer {
+   margin-left: 120px;
+}
+
+.iconContainer {
+   margin-right: 95px;
+}
+  
+.profile-image img {
+   background-position: center;
+   left: 850px; 
+   width: 213px;
+   height: 213px;
+   background: transparent url(/assets/petra.jpg) 0% 0% no-repeat padding-box;
+   border: 3px solid #FFFFFF;
+   opacity: 1;  
+   position: absolute;
+   margin-top: -45px;
+}
+ 
+
+.summary-section p { 
+  top: 785px;
+  left: 616px;
+  width: auto;
+  height: 192px;
+  text-align: left; 
+  align-content: center;
+}
+
+/*grey - background-section*/
+ .summary-section {
+    width: 100%; 
+    margin: 0px;
+ }
+ 
+ 
+.tech-languages p { 
+  flex-direction: row;
+  
+}
+  /*.tech-languages {
+  flex-direction: row;
+  display: flex;
+  flex-grow: 1;
+  }*/
+  }
 
 
 
