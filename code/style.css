@@ -19,7 +19,7 @@ body {
     color: aliceblue;   
  }
 
-.iconContainer {
+.icon-container {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -27,6 +27,7 @@ body {
   /*position: relative;*/
   z-index: 1;
   bottom: 400px;
+  padding-top: 40px;
 }
 
 .icon {
@@ -48,15 +49,16 @@ body {
   /*height: 20px;*/
 }
 
- .portfolioName {
+ .portfolio-name {
     display: flex;
     flex-direction: row;
     margin-bottom: -30px;
  }
  
- .headerText {
-    margin-top: 5px;
+ .header-text-container {
+    margin-top: 25px;
  }
+
  p.portfolio {
     text-align: left;
     font-family: 'Roboto', sans-serif;
@@ -84,7 +86,7 @@ body {
     text-shadow: 2px 2px 2px grey;
  }
  
- /* frontend developer text */
+ /*--- frontend developer text ---*/
  h1 {
     top: 196px;
     left: 78px;
@@ -99,23 +101,21 @@ body {
     padding-bottom: 20px;
  }
  
- /*project manager text */
+ /*---- project manager text ----*/
  h3 {
     top: 296px;
     left: 41px;
     /*width: 219px;*/
     height: 29px;
-    /* UI Properties */
     text-align: left;
     font: Bold 24px/29px Montserrat;
-    /*font: Bold 24px/29px Montserrat;*/
     letter-spacing: 0;
     color: #fff;
     opacity: 1;
     padding-top: 10px;
  }
  
-/* pic petra */
+/*---- pic petra ----*/
 .profile-image img {
    border-radius: 100%;
    top: 359px; 
@@ -125,7 +125,7 @@ body {
    background: transparent url(/assets/petra.jpg) 0% 0% no-repeat padding-box;
    border: 3px solid #FFFFFF;
    opacity: 1;  
-   position: absolute;
+   position: sticky;
 }
  
  .hero-container {
@@ -138,26 +138,26 @@ body {
     top: 571px;
     left: 37px;
     width: 302px;
-    height: 228px;
-    /* UI Properties */
+    height: 170px;
     text-align: left;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 17px;
+    font: Regular 17px/29px Montserrat;
     letter-spacing: 0;
     color: #000000;
     opacity: 1;
-    padding: 45px 37px 30px 37px;
+    padding: 58px 37px 56px 37px;
     background-color: #f4f4f4;
     margin-top: 0;
  }
  
+ /* --- grey background ---*/
  .summary-section {
     top: 513px;
     left: -1.0767822265625px;
-    width: 377px;
-    height: 342px;
+    width: 100%;
+    height: 320px;
  }
 
+/*------- TECH /RED HEADER -------*/
  .tech-section p {
    top: 915px;
    left: 135px;
@@ -173,35 +173,31 @@ body {
    left: 145px;
    width: 62px;
    height: 27px;
-/* UI Properties */
    text-align: left;
-   font-family: 'Montserrat', sans-serif;
-   font-size: 22px; 
-   font-weight: bold;
+   font: Bold 22px/27px Montserrat;
    letter-spacing: 0;
    color: #FFFFFF;
    opacity: 1;
    margin-left: 150px;
-   margin-top: 5px;
+   padding-top: 20px;
 }
 
 /* TECH-SECTION-languages HTML,CSS */
-
 .tech-languages p {
    text-align: center;
    padding-top: 20px;
    font-family: 'Montserrat', sans-serif;
-   padding-bottom: 40px;
+   padding-bottom: 60px;
+   padding-left: 40px;
+   padding-right: 40px;
 }
  
- /****** FEATURED PROJECTS ****/
-
+ /*------ FEATURED PROJECTS ------*/
 .featured-container {
    top: 1212px;
    left: -2.2335205078125px;
    width: 377px;
    height: 1150px;
-/* UI Properties */
    background: #F4F4F4 0% 0% no-repeat padding-box;
    -webkit-margin-top-collapse: separate;
 }
@@ -209,9 +205,7 @@ body {
 .feature-heading p {
    top: 1271px;
    left: 59px;
-  
    height: 24px;
-   /* UI Properties*/
    text-align: center;
    font-family: 'Montserrat', sans-serif;
    font-weight: bold;
@@ -224,7 +218,6 @@ body {
    left: 53px;
    width: 269px;
    height: 22px;
-   /* UI Properties */
    background: #FA382F 0% 0% no-repeat padding-box;
    opacity: 1;
    margin-top: 59px;
@@ -233,6 +226,7 @@ body {
    color: #FFFFFF;
    padding: 7px;
 }
+
 .projects img {
    left: 36px;
    width: 303px;
@@ -241,17 +235,28 @@ body {
    padding-left: 40px;
 }
 
-/*--- sunny side up-text ---*/
+/*----- sunny side up-text ----*/
 .hero-text {
    top: 1330px;
    left: 185px;
-   width: 132px;
+   width: 150px;
    height: 50px;
-/* UI Properties */
-   text-align: left;
-   font-family: 'Montserrat', sans-serif;
-   font-weight: 700px;
-   font-size: 16px;
+   text-align: center;
+   text-align: center;
+   font: Bold 16px/19px Montserrat;
+   letter-spacing: 0;
+   color: #FDDFE7;
+   position: absolute;
+   transform: translate(-50%, -50%)
+}
+
+.hero-text2 {
+   top: 1763px;
+   left: 185px;
+   width: 150px;
+   height: 190px;
+   text-align: center;
+   font: Bold 16px/19px Montserrat;
    letter-spacing: 0;
    color: #FDDFE7;
    position: absolute;
@@ -262,11 +267,9 @@ p.weather-app-subheader {
    top: 0px;
    left: 0px;
    width: 117px;
-   height: 10px;
+   height: 20px;
    text-align: left;
-   font-family: 'Roboto', sans-serif;
-   font-weight: 700px;
-   font-size: 17px;
+   font: Bold 17px/29px Roboto;
    letter-spacing: 0;
    color: #FA382F;
    display: flex;
@@ -289,7 +292,6 @@ p.weather-app-subheader {
 }
 
 /*--- TECH LANG USED IN WEATHER APP---*/
-
 .weather-app-lang {
    top: 1883px;
    left: 36px;
@@ -402,7 +404,6 @@ margin-bottom: -15px;
 }
 
 /*------ MORE THOUGHTS ----*/
-
 .more-thoughts-container p {
    top: 3373px;
    left: 89px;
@@ -479,7 +480,8 @@ margin-bottom: -10px;
    margin-top: 70px;
    padding-top: 10px;
 }
-/* container-background-grey*/
+
+/*----- container-background-grey---*/
 .container-skills {
    display: flex;
    justify-content: center;
@@ -505,7 +507,6 @@ color: #FA382F;
 
 .more-header {
 color: #FA382F;
-
 }
 
 .upcoming-header {
@@ -555,12 +556,11 @@ li {
 }
 
 /*---- FOR MORE ----*/
-
 .for-more-section {
    top: 0px;
    left: 0px;
    width: 375px;
-   height: 250px;
+   height: 230px;
    /* UI Properties */
    background: #FFFFFF 0% 0% no-repeat padding-box;
    opacity: 1;
@@ -590,7 +590,7 @@ li {
    padding-top: 2px;   
 }
 
-/*------- RED ICONS ---------*/
+/*--- RED ICONS - LinkedIn/GitHub/Stack.O ---*/
 .icon-container-red {
   display: flex;
   flex-direction: row;
@@ -608,14 +608,14 @@ li {
   border-radius: 100%;
   border: 2px solid #FA382F;
   margin-left: 7px;
-  margin-bottom: 15px;
+ 
 }
 
 .iconImg-red {
   color: #FA382F;
   position: relative;
   top: 7px;
-  left: 9px;
+  left: 10px;
   width: 20px;
   /*height: 20px;*/
 }
@@ -644,13 +644,12 @@ li {
    left: -3px;
    width: 378px;
    height: 270px;
-   /* UI Properties */
    opacity: 1;
    background-color: blue;
    text-align: center;
    letter-spacing: 0;
    color: #FFFFFF;
-   opacity: 1;
+
 }
 p.contact-text {
    top: 4938px;
@@ -682,68 +681,106 @@ p.email-text {
 }
 
 
-/* ---- DESKTOP ---- */ 
-@media (min-width: 1024px) {
+/* ---- MOBILE ---- */
+@media (min-width: 375px) and (max-width: 667px) {
   body {
     width: 100%;
-    /*flex-direction: row;
-    flex-wrap: wrap;*/
-  }
+   }
+}
 
-  header {
+/* ---- TABLET ---- */
+@media (min-width: 668px) and (max-width: 1023px) {
+  body {
+  width: 100%;
+   }
+}
+
+/* ---- DESKTOP ---- */ 
+@media (min-width: 1024px) {
+   body {
+      width: 100%;
+   }
+
+header {
    background-position: center;
-   background-size: cover;
    background-repeat: no-repeat;
-  }
+   }
 
-.headerTextContainer {
-   margin-left: 120px;
-}
 
-.iconContainer {
-   margin-right: 95px;
-}
-  
+.header-text-container {
+   margin-left:150px;
+   margin-top: 30px;
+   }
+
+.icon-container {
+   margin-right: 300px;
+   }
+  /* float: right;
+   /*object-position: right;*/
+
 .profile-image img {
    background-position: center;
-   left: 850px; 
-   width: 213px;
-   height: 213px;
+   left: 750px; 
+   width: 220px;
+   height: 220px;
    background: transparent url(/assets/petra.jpg) 0% 0% no-repeat padding-box;
    border: 3px solid #FFFFFF;
    opacity: 1;  
    position: absolute;
-   margin-top: -45px;
-}
- 
+   margin-top: -50px;
+   }  
+
+.summary.section {
+   width: 100%;
+   }
 
 .summary-section p { 
-  top: 785px;
-  left: 616px;
-  width: auto;
-  height: 192px;
-  text-align: left; 
-  align-content: center;
-}
+   top: 495px;
+   left: 616px;
+   width: auto;
+   height: 152px;
+   text-align: left; 
+   padding-left: 50px;
+   }
 
-/*grey - background-section*/
- .summary-section {
-    width: 100%; 
-    margin: 0px;
- }
+p.about-me-text {
+   padding-left: 250px;
+   padding-right: 250px;
+   padding-top: 80px;   
+   }
  
- 
-.tech-languages p { 
-  flex-direction: row;
-  
+.tech-section {
+   height: 58px;
+   padding-left: 25%;
+   align-items: center;
+   /*margin-left: 150px;*/
+   }
 }
-  /*.tech-languages {
-  flex-direction: row;
-  display: flex;
-  flex-grow: 1;
-  }*/
-  }
+/*.tech-languages {
 
+   /*flex-direction: row;
+   display: flex;
+   flex-grow: 1;
+   display: flex;
+   flex-wrap: wrap;
+   padding-left: 200px;
+   padding-right: 210px;
+   }
+
+/*.featured-heading {
+   width: 100%;
+   display: flex;
+   width: 100%;
+   flex-wrap: wrap
+   
+   }
+
+/*.featured-container {
+   display: flex;
+   width: 100%;
+   flex-wrap: wrap;
+   }*/
+}
 
 
 
