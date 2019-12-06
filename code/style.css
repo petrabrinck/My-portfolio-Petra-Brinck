@@ -1,33 +1,39 @@
-body {
-    font-family: 'Montserrat', sans-serif;
+* body {
+   box-sizing: border-box;
+}
+
+/******* gamla koden *****/
+/* body {
+    
     font-family: 'Roboto', sans-serif;
     margin: 0px;
- }
+ } */
  
  header {
-    height: 508px;
-    width: 375;
-    /* The hero image */
-    /* Image / from relative path */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/andras-vas.jpg");
-    background-repeat: no-repeat;
-    /* To make the her picture cover the screen */
-    background-size: cover;
-    /*background-position: center;*/
+   display: flex;
+   flex-direction: row;
+   height: 600px; 
+   font-family: 'Montserrat', sans-serif;
+   /* width: 667;  */
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/andras-vas.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   /*background-position: center;*/
     /* The image change size on all screens */
-    /*position: relative;*/
-    color: aliceblue;   
+    position: relative;
+    color: white;  
  }
 
 .icon-container {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   justify-content: flex-end;
-  margin-right: 0%;
-  /*position: relative;*/
   z-index: 1;
-  bottom: 400px;
-  padding-top: 40px;
+  /* margin-bottom: 400px; */
+  margin-top: 30px;
+  margin-left: 260px;
+  padding: 0px;
+
 }
 
 .icon {
@@ -36,96 +42,80 @@ body {
   height: 39px;
   border-radius: 100%;
   border: 2px solid white;
-  margin-left: 7px;
+  margin-left: 10px;
   margin-bottom: 15px;
 }
 
 .iconImg {
   color: white;
   position: relative;
-  top: 7px;
-  left: 9px;
+  top: 10px;
+  left: 10px;
   width: 20px;
   /*height: 20px;*/
 }
 
  .portfolio-name {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: -30px;
- }
+   display: flex;
+ } 
  
+ /*** ta bort container ? */
  .header-text-container {
-    margin-top: 25px;
+   margin-top: 25px;
  }
 
  p.portfolio {
-    text-align: left;
-    font-family: 'Roboto', sans-serif;
-    font-size: 13px;
-    letter-spacing: 0,52px;
-    color: #ffffff;
-    opacity: 1;
-    text-shadow: 2px 2px 2px grey;
-    display: flex;
-    flex-direction: row;
+   display: flex;
+   flex-direction: row;
+   font-family: 'Roboto', sans-serif;
+   font-size: 13px;
+   margin-left: 80px;
+   margin-right: 10px;
+   color: #fff;
  }
  
  /*layout properties */
  p.name {
-    text-align: left;
-    font-family: 'Roboto', sans-serif;
-    font-size: 13px;
-    font-weight: bold;
-    letter-spacing: 0,52px;
-    color: #ffffff;
-    opacity: 1;
-    width: 100%;
-    position: relative;
-    left: 19px;
-    text-shadow: 2px 2px 2px grey;
+   display: flex;
+   flex-direction: row;
+   font-family: 'Roboto', sans-serif;
+   font-size: 13px;
+   font-weight: bold;
+   color: #fff;
+   /* margin-left: 10px; */
  }
  
  /*--- frontend developer text ---*/
  h1 {
-    top: 196px;
-    left: 78px;
-    width: 71px;
-    height: 49px;
-    /* UI Properties */
-    text-align: left;
-    font: Bold 40px/49px Montserrat;
-    letter-spacing: 0;
-    color: #FFFFFF;
-    opacity: 1;
-    padding-bottom: 20px;
+   display: flex;
+   flex-direction: column;
+   font-family: 'Montserrat', sans-serif;
+   width: 71px;
+   margin-left: 80px;
+   color: #FFF; 
+   font-size: 40px; 
  }
  
  /*---- project manager text ----*/
  h3 {
-    top: 296px;
-    left: 41px;
-    /*width: 219px;*/
-    height: 29px;
-    text-align: left;
-    font: Bold 24px/29px Montserrat;
-    letter-spacing: 0;
-    color: #fff;
-    opacity: 1;
-    padding-top: 10px;
+   display: flex;
+   flex-direction: column;
+   font-family: 'Montserrat', sans-serif;
+   margin-left: 80px;
+   color: #fff;  
+   font-size: 24px;  
  }
  
 /*---- pic petra ----*/
 .profile-image img {
+   display: flex;
    border-radius: 100%;
-   top: 359px; 
-   left: 176px; 
+   border: 3px solid #FFF;
    width: 162px;
-   height: 162px;
-   background: transparent url(./assets/petra.jpg) 0% 0% no-repeat padding-box;
-   border: 3px solid #FFFFFF;
-   opacity: 1;  
-   position: sticky;
+   /* background: transparent url(./assets/petra.jpg) 0% 0% no-repeat padding-box; */
+   margin-left: 240px; 
+   margin-top: 100px;
+   
 }
  
  .hero-container {
