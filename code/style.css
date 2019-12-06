@@ -9,10 +9,11 @@
     margin: 0px;
  } */
  
- header {
+header {
    display: flex;
    flex-direction: row;
    height: 600px; 
+   width: 100%;
    font-family: 'Montserrat', sans-serif;
    /* width: 667;  */
    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/andras-vas.jpg");
