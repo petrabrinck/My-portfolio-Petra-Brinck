@@ -1,13 +1,6 @@
-* body {
+/* * body {
    box-sizing: border-box;
-}
-
-/******* gamla koden *****/
-/* body {
-    
-    font-family: 'Roboto', sans-serif;
-    margin: 0px;
- } */
+} */
  
 header {
    display: flex;
@@ -15,14 +8,13 @@ header {
    height: 600px; 
    width: 100%;
    font-family: 'Montserrat', sans-serif;
-   /* width: 667;  */
    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/andras-vas.jpg");
    background-repeat: no-repeat;
    background-size: cover;
-   /*background-position: center;*/
+   background-position: center;
     /* The image change size on all screens */
-    position: relative;
-    color: white;  
+   position: relative;
+   color: white;  
  }
 
 .icon-container {
@@ -30,11 +22,9 @@ header {
   flex-direction: row;
   justify-content: flex-end;
   z-index: 1;
-  /* margin-bottom: 400px; */
-  margin-top: 30px;
-  margin-left: 260px;
+  margin-top: 80px;
+  margin-left: 320px;
   padding: 0px;
-
 }
 
 .icon {
@@ -70,7 +60,7 @@ header {
    flex-direction: row;
    font-family: 'Roboto', sans-serif;
    font-size: 13px;
-   margin-left: 80px;
+   margin-left: 140px;
    margin-right: 10px;
    color: #fff;
  }
@@ -92,7 +82,7 @@ header {
    flex-direction: column;
    font-family: 'Montserrat', sans-serif;
    width: 71px;
-   margin-left: 80px;
+   margin-left: 140px;
    color: #FFF; 
    font-size: 40px; 
  }
@@ -102,7 +92,7 @@ header {
    display: flex;
    flex-direction: column;
    font-family: 'Montserrat', sans-serif;
-   margin-left: 80px;
+   margin-left: 140px;
    color: #fff;  
    font-size: 24px;  
  }
@@ -114,41 +104,39 @@ header {
    border: 3px solid #FFF;
    width: 162px;
    /* background: transparent url(./assets/petra.jpg) 0% 0% no-repeat padding-box; */
-   margin-left: 240px; 
-   margin-top: 100px;
+   margin-left: 310px; 
+   margin-top: 50px;
    
 }
  
  .hero-container {
-    width: 80%;
-    margin: 0 auto;
-    /*padding: 60px 0;*/
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
  }
   
  .summary-section p {
-    top: 571px;
-    left: 37px;
-    width: 302px;
-    height: 170px;
-    text-align: left;
-    font: Regular 17px/29px Montserrat;
-    letter-spacing: 0;
-    color: #000000;
-    opacity: 1;
-    padding: 58px 37px 56px 37px;
-    background-color: #f4f4f4;
-    margin-top: 0;
+   display: flex;
+   flex-direction: row;
+   text-align: left;
+   font-family: 'Montserrat', sans-serif;
+   margin-left: 20%;
+   margin-right: 20%;
+   margin-top: 30px;
+   margin-bottom: 30px;;
+   /* padding: 58px 37px 56px 37px; */  
  }
  
  /* --- grey background ---*/
  .summary-section {
-    top: 513px;
-    left: -1.0767822265625px;
-    width: 100%;
-    height: 320px;
- }
+   display: flex;
+   flex-direction: row;   
+   width: 100%;
+   /* height: 320px; */
+   background-color: #f4f4f4;
+ } 
 
-/*------- TECH /RED HEADER -------*/
+/* ------- TECH /RED HEADER -------
  .tech-section p {
    top: 915px;
    left: 135px;
@@ -159,7 +147,7 @@ header {
 }
 
 /* RED headline */
-.tech-section {
+/* .tech-section {
    top: 917px;
    left: 145px;
    width: 62px;
@@ -171,20 +159,20 @@ header {
    opacity: 1;
    margin-left: 150px;
    padding-top: 20px;
-}
+} */
 
 /* TECH-SECTION-languages HTML,CSS */
-.tech-languages p {
+/* .tech-languages p {
    text-align: center;
    padding-top: 20px;
    font-family: 'Montserrat', sans-serif;
    padding-bottom: 60px;
    padding-left: 40px;
    padding-right: 40px;
-}
+} */
  
  /*------ FEATURED PROJECTS ------*/
-.featured-container {
+/* .featured-container {
    top: 1212px;
    left: -2.2335205078125px;
    width: 377px;
@@ -224,10 +212,10 @@ header {
    height: 179px;
    filter: brightness(60%);
    padding-left: 40px;
-}
+} */
 
 /*----- sunny side up-text ----*/
-.hero-text {
+/* .hero-text {
    top: 1330px;
    left: 185px;
    width: 150px;
@@ -280,10 +268,10 @@ p.weather-app-subheader {
    display: flex;
    flex-direction: row;
    padding-left: 40px;
-}
+} */
 
 /*--- TECH LANG USED IN WEATHER APP---*/
-.weather-app-lang {
+/* .weather-app-lang {
    top: 1883px;
    left: 36px;
    width: 297px;
@@ -296,16 +284,16 @@ p.weather-app-subheader {
 
 .weather-app-languages p {
    top: 1954px;
-   /*height: 10px;*/
+   /*height: 10px;
    font: Regular 9px/10px Roboto;
    border: 4px solid #FDDFE7;
    opacity: 1;
    background: #FDDFE7;
    display: inline-flex;   
-}
+} */
 
 /*------ OTHER PROJECTS -----*/
-.other-projects-heading p {
+/* .other-projects-heading p {
    text-align: center;
    font-weight: 700px;
    font-size: 21px; 
@@ -333,10 +321,10 @@ p.weather-app-subheader {
    width: 301px;
    height: 103px;
    opacity: 1;
-}
+} */
 
 /*------ MY THOUGHTS HEADLINE (white bg)-----*/
-.my-thoughts-container {
+/* .my-thoughts-container {
    left: 0px;
    width: 375px;
    height: 80px;
@@ -345,14 +333,14 @@ p.weather-app-subheader {
    text-align: -webkit-center;
    margin-top: 90px; 
    padding-top: 70px;
-}
+} */
 
-/*--- subheader my thoughts---*/
+/* --- subheader my thoughts---
 .my-thoughts-red-header {
 color: #FA382F;   
 margin-bottom: -15px; 
-}
-
+} */
+/* 
 .my-thoughts-heading { 
    font: Bold 22px/27px Montserrat;
    letter-spacing: 0;
@@ -392,10 +380,10 @@ margin-bottom: -15px;
    text-align: left;
    font: Regular 17px/32px Roboto;
    padding-left: 40px;
-}
+} */
 
 /*------ MORE THOUGHTS ----*/
-.more-thoughts-container p {
+/* .more-thoughts-container p {
    top: 3373px;
    left: 89px;
    width: 197px;
@@ -446,9 +434,9 @@ margin-bottom: -10px;
 .blog-dec {
 color: #FA382F;
 margin-bottom: -10px;   
-}
+} */
 
-.blog-text {
+/* .blog-text {
    top: 0px;
    left: 82px;
    width: 164px;
@@ -457,23 +445,23 @@ margin-bottom: -10px;
    font: Bold 17px/29px Roboto;
    letter-spacing: 0;
    color: #000000;
-}
+} */
 
 
 /*------ SKILLS -------------*/
-.skills-section {
+/* .skills-section {
    top: 3805px;
    left: 0px;
    width: 375px;
-   /*height: 774px;*/
+   /*height: 774px;
    background: #F4F4F4 0% 0% no-repeat padding-box;
    opacity: 1;
    margin-top: 70px;
    padding-top: 10px;
-}
+} */
 
 /*----- container-background-grey---*/
-.container-skills {
+/* .container-skills {
    display: flex;
    justify-content: center;
    flex-wrap: wrap;
@@ -522,7 +510,7 @@ color: #FA382F;
    left: 53px;
    width: 78px;
    height: 20px;
-   /* UI Properties */
+   /* UI Properties 
    background: #FA382F 0% 0% no-repeat padding-box;
    opacity: 1;
    margin-top: 59px;
@@ -544,15 +532,15 @@ li {
    list-style-type: none;
    text-align: center;
    padding:3px;
-}
+} */
 
 /*---- FOR MORE ----*/
-.for-more-section {
+/* .for-more-section {
    top: 0px;
    left: 0px;
    width: 375px;
    height: 230px;
-   /* UI Properties */
+   /* UI Properties 
    background: #FFFFFF 0% 0% no-repeat padding-box;
    opacity: 1;
    padding-top: 50px;
@@ -579,16 +567,16 @@ li {
    background: #FA382F 0% 0% no-repeat padding-box;
    opacity: 1;
    padding-top: 2px;   
-}
+} */
 
 /*--- RED ICONS - LinkedIn/GitHub/Stack.O ---*/
-.icon-container-red {
+/* .icon-container-red {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   margin-right: 0%;
   /*position: relative;*/
-  z-index: 1;
+  /* z-index: 1;
   bottom: 400px;
 }
 
@@ -607,11 +595,11 @@ li {
   position: relative;
   top: 7px;
   left: 10px;
-  width: 20px;
+  width: 20px; */
   /*height: 20px;*/
 }
 
-.icon-text-red {
+/* .icon-text-red {
    color: #FA382F;
    display: inline-flex;
    font-size: 13px;
@@ -627,10 +615,10 @@ li {
 }
 .icon-red-text-stack {
    padding-left: 28px;
-}
+}  */
 
 /*------ CONTACT INFO -----*/
-.contact-info-baseline {
+/* .contact-info-baseline {
    top: 4875px;
    left: -3px;
    width: 378px;
@@ -644,8 +632,8 @@ li {
 }
 p.contact-text {
    top: 4938px;
-   left: 135px;
-   /*width: 106px;*/
+   left: 135px; */
+   /*width: 106px;
    height: 25px;
    font: Bold 21px/25px Montserrat;
    padding-top: 60px;
@@ -654,7 +642,7 @@ p.name-text {
    top: 0px;
    left: 92px;
    /*width: 118px;*/
-   height: 20px;
+   /* height: 20px;
    text-align: center;
    font: Bold 17px/29px Roboto;
 }
@@ -668,8 +656,8 @@ p.number-text {
 p.email-text {
    top: 29px;
    left: 90px;
-   height: 20px;
-}
+   height: 20px; 
+} 
 
 
 /* ---- MOBILE ---- */
