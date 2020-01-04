@@ -1,782 +1,354 @@
-/* * body {
-   box-sizing: border-box;
-} */
- 
+body, 
+html {
+   font-family: 'Roboto', sans-serif;
+   margin: 0;
+   background: #ffff;
+   overflow-x: hidden;
+} 
+
+h1 {
+  font-size: 49px;
+}
+
+h2 {
+  font: Bold 21px/25px Montserrat;
+  color: #fff;
+  background-color: #fa382f;
+  padding: 0 4px;
+}
+
+h3 {
+  font: Bold 21px/25px Montserrat;
+  color: #fa382f;
+  margin: 0px;
+  text-align: center;
+}
+
+h4 {
+  font: 400 17px/29px Roboto;
+  color: #fa382f;
+  text-align: left;
+}
+
+p {
+  font-size: 12px;
+  line-height: 2;
+  color: #000000;
+}
 header {
+   /* font-family: 'Montserrat', sans-serif; */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/andras-vas.jpg");
+  background-repeat: no-repeat;
+  /* To make the hero picture cover the screen */
+  background-size: cover;
+  background-position: center;
+  /* The image change size on all screens */
+}
+
+
+/* /* .portfolio-name {
    display: flex;
    flex-direction: row;
-   height: 100vh; 
-   width: 100%;
-   font-family: 'Montserrat', sans-serif;
-   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/andras-vas.jpg");
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
-    /* The image change size on all screens */
-   position: relative;
-   color: white;  
- }
+   margin-bottom: -10px;
+}  
 
-.header-text {
-   margin-top: 20px;
-}
-/* body {
-  height: 100vh; 
+p.portfolio {
+   text-align: left;
+   font-family: 'Roboto', sans-serif;
+   font-size: 13px;
+   color: #fff;
+  
+   display: flex;
+   flex-direction: row;
+   text-shadow: 2px 2px 2px grey;
+   margin-left: 180px;
+   padding-right: 15px;
+   letter-spacing: 0, 52px;
+   margin-top: 50px;
+} */
+ 
+ /*layout properties */
+ /* p.name {
+   font-family: 'Roboto', sans-serif;
+   font-size: 13px;
+   font-weight: bold;
+   color: #fff;
+   opacity: 1;
+   width: 100%;
+   /* text-shadow: 2px 2px 2px grey; 
+   letter-spacing: 0, 52px;
+   margin-top: 50px;
+} */
+ 
+/*---- pic petra ----*/
+
+.hero-container {
+  width: 80%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  -webkit-font-smoothing: antialiased;
-   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url("/assets/surf.jpg");
-   /* background-repeat: no-repeat;  
-   background-size: cover; 
-   color: whitesmoke;
-   padding: 10px
-} */
-
-.icon-container {
-  display: inline-flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  z-index: 1;
-  margin-top: 130px;
-  margin-left: 330px;
-  padding: 0px;
+  justify-content: center;
+  padding: 30px 0;
 }
 
-.icon {
-  margin-top: 10%;
-  width: 40px;
-  height: 39px;
-  border-radius: 100%;
-  border: 2px solid white;
+.header-label {
+  margin: 30 0px;
+}
+
+.header-label p {
+  color: #fff;
+  font: Bold 13px/15px Roboto;
+}
+
+.header-label h1 {
+  color: #fff;
+  font: Bold 40px/49px Montserrat;
+}
+
+.header-profile {
+  width: 162px;
+  height: 162px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+
+.header-icons {
+  display: flex;
+  text-align: center;
+}
+
+.hIconCircle {
+  width: 49px;
+  height: 49px;
+  border: 3px solid #ffff;
+  border-radius: 50%;
   margin-left: 10px;
-  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.iconImg {
-  color: white;
-  position: relative;
-  top: 10px;
-  left: 10px;
-  width: 20px;
-  /*height: 20px;*/
+.hIconImg {
+  width: 22px;
+  height: 22px;
 }
 
- .portfolio-name {
-   display: flex;
-   -webkit-margin-collapse: discard;
- } 
- 
- /*** ta bort container ? */
- .header-text-container {
-   margin-top: 5px;
- }
-
- p.portfolio {
-   display: flex;
-   flex-direction: row;
-   font-family: 'Roboto', sans-serif;
-   font-size: 13px;
-   margin-left: 150px;
-   margin-right: 10px;
-   color: #fff;
- }
- 
- /*layout properties */
- p.name {
-   display: flex;
-   flex-direction: row;
-   font-family: 'Roboto', sans-serif;
-   font-size: 13px;
-   font-weight: bold;
-   color: #fff;
-   /* margin-left: 10px; */
- }
- 
- /*--- frontend developer text ---*/
- h1 {
-   display: flex;
-   flex-direction: column;
-   font-family: 'Montserrat', sans-serif;
-   width: 71px;
-   margin-left: 150px;
-   color: #FFF; 
-   font-size: 40px; 
- }
- 
- /*---- project manager text ----*/
- h3 {
-   display: inline;
-   flex-direction: column;
-   font-family: 'Montserrat', sans-serif;
-   margin-left: 150px;
-   color: #fff;  
-   font-size: 24px;  
- }
- 
-/*---- pic petra ----*/
-.profile-image img {
-   display: flex;
-   border-radius: 100%;
-   border: 3px solid #FFF;
-   width: 162px;
-   /* background: transparent url(./assets/petra.jpg) 0% 0% no-repeat padding-box; */
-   margin-left: 320px; 
-   margin-top: 5px;
-   
-}
- 
- .hero-container {
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
- }
-  
- .summary-section p {
-   display: flex;
-   flex-direction: row;
-   text-align: left;
-   font-family: 'Montserrat', sans-serif;
-   margin-left: 20%;
-   margin-right: 20%;
-   margin-top: 30px;
-   margin-bottom: 30px;;
-   /* padding: 58px 37px 56px 37px; */  
- }
- 
- /* --- grey background ---*/
- .summary-section {
-   display: flex;
-   flex-direction: row;   
-   width: 100%;
-   /* height: 320px; */
-   background-color: #f4f4f4;
- } 
-
-/* ------- TECH /RED HEADER -------
- .tech-section p {
-   top: 915px;
-   left: 135px;
-   width: 82px;
-   background: #FA382F 0% 0% no-repeat padding-box;
-   opacity: 1;
-   text-align: center;
+.box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
 }
 
-/* RED headline */
-/* .tech-section {
-   top: 917px;
-   left: 145px;
-   width: 62px;
-   height: 27px;
-   text-align: left;
-   font: Bold 22px/27px Montserrat;
-   letter-spacing: 0;
-   color: #FFFFFF;
-   opacity: 1;
-   margin-left: 150px;
-   padding-top: 20px;
-} */
-
-/* TECH-SECTION-languages HTML,CSS */
-/* .tech-languages p {
-   text-align: center;
-   padding-top: 20px;
-   font-family: 'Montserrat', sans-serif;
-   padding-bottom: 60px;
-   padding-left: 40px;
-   padding-right: 40px;
-} */
- 
- /*------ FEATURED PROJECTS ------*/
-/* .featured-container {
-   top: 1212px;
-   left: -2.2335205078125px;
-   width: 377px;
-   height: 1150px;
-   background: #F4F4F4 0% 0% no-repeat padding-box;
-   -webkit-margin-top-collapse: separate;
+.grey {
+  background: #f4f4f4;
 }
 
-.feature-heading p {
-   top: 1271px;
-   left: 59px;
-   height: 24px;
-   text-align: center;
-   font-family: 'Montserrat', sans-serif;
-   font-weight: bold;
-   font-size: 22px;
-   letter-spacing: 0;
+.summary-box p,
+.tech-box p {
+  font: 400 17px/29px Montserrat;
+  width: 80%;
+  text-align: center;
 }
 
-.feature-heading p {
-   top: 1269px;
-   left: 53px;
-   width: 269px;
-   height: 22px;
-   background: #FA382F 0% 0% no-repeat padding-box;
-   opacity: 1;
-   margin-top: 59px;
-   margin-left: 48px;
-   margin-right: 58px;
-   color: #FFFFFF;
-   padding: 7px;
+.hero-text {
+  font: 700 17px/19px Montserrat;
+}
+
+.projects,
+.other-projects,
+.thought {
+  width: 80%;
+  margin: 30px 0;
+  justify-content: center;
+  align-items: center;
 }
 
 .projects img {
-   left: 36px;
-   width: 303px;
-   height: 179px;
-   filter: brightness(60%);
-   padding-left: 40px;
-} */
-
-/*----- sunny side up-text ----*/
-/* .hero-text {
-   top: 1330px;
-   left: 185px;
-   width: 150px;
-   height: 50px;
-   text-align: center;
-   text-align: center;
-   font: Bold 16px/19px Montserrat;
-   letter-spacing: 0;
-   color: #FDDFE7;
-   position: absolute;
-   transform: translate(-50%, -50%)
-}
-
-.hero-text2 {
-   top: 1763px;
-   left: 185px;
-   width: 150px;
-   height: 190px;
-   text-align: center;
-   font: Bold 16px/19px Montserrat;
-   letter-spacing: 0;
-   color: #FDDFE7;
-   position: absolute;
-   transform: translate(-50%, -50%)
-}
-
-p.weather-app-subheader {
-   top: 0px;
-   left: 0px;
-   width: 117px;
-   height: 20px;
-   text-align: left;
-   font: Bold 17px/29px Roboto;
-   letter-spacing: 0;
-   color: #FA382F;
-   display: flex;
-   flex-direction: row;
-   padding-left: 40px;
-}
-
-.weather-app-info {
-   top: 0px;
-   left: 121px;
-   width: 280px;
-   height: 20px;
-   text-align: left;
-   font: Regular 17px/29px Roboto;
-   letter-spacing: 0;
-   color: #000000;
-   display: flex;
-   flex-direction: row;
-   padding-left: 40px;
-} */
-
-/*--- TECH LANG USED IN WEATHER APP---*/
-/* .weather-app-lang {
-   top: 1883px;
-   left: 36px;
-   width: 297px;
-   height: 96px;
-   text-align: left;
-   letter-spacing: 0;
-   opacity: 1;
-   padding-left: 40px;
-}
-
-.weather-app-languages p {
-   top: 1954px;
-   /*height: 10px;
-   font: Regular 9px/10px Roboto;
-   border: 4px solid #FDDFE7;
-   opacity: 1;
-   background: #FDDFE7;
-   display: inline-flex;   
-} */
-
-/*------ OTHER PROJECTS -----*/
-/* .other-projects-heading p {
-   text-align: center;
-   font-weight: 700px;
-   font-size: 21px; 
-   font-family: 'Montserrat', sans-serif;
-   letter-spacing: 0;
-   color: #FA382F;
-   opacity: 1;  
-}
-.other-projects-heading P {
-   top: 2046px;
-   left: 84px;
-   width: 198px;
-   height: 25px;
-   text-align: center;
-   font: Bold 21px/25px Montserrat;
-   letter-spacing: 0;
-   color: #FA382F;
-   opacity: 1;
-   padding-left: 85px;
-}
-
-.other-proj-info {
-   top: 2375px;
-   left: 38px;
-   width: 301px;
-   height: 103px;
-   opacity: 1;
-} */
-
-/*------ MY THOUGHTS HEADLINE (white bg)-----*/
-/* .my-thoughts-container {
-   left: 0px;
-   width: 375px;
-   height: 80px;
-   background: #FFFFFF 0% 0% no-repeat padding-box;
-   padding-top: 30px;
-   text-align: -webkit-center;
-   margin-top: 90px; 
-   padding-top: 70px;
-} */
-
-/* --- subheader my thoughts---
-.my-thoughts-red-header {
-color: #FA382F;   
-margin-bottom: -15px; 
-} */
-/* 
-.my-thoughts-heading { 
-   font: Bold 22px/27px Montserrat;
-   letter-spacing: 0;
-   color: #FFFFFF;
-   background: #FFFFFF 0% 0% no-repeat padding-box;
-   left: 93px;
-   width: 188px;
-   height: 27px;
-   background: #FA382F 0% 0% no-repeat padding-box;
-   opacity: 1; 
-   text-align: center;
-} 
-
-.my-thoughts img {
-   width: 80%;
-   height: auto;
-   justify-content: center;
-   padding-left: 40px;
-}
-
-.my-thoughts h2 {
-   top: 29px;
-   left: 0px;
-   text-align: left;
-   font: Bold 21px/32px Roboto;
-   letter-spacing: 0;
-   color: #000000;
-   padding-left: 40px;
-   padding-right: 40px;
-}
-
-.my-thoughts p {
-   top: 224px;
-   left: 0px;
-   width: 288px;
-   height: 15px;
-   text-align: left;
-   font: Regular 17px/32px Roboto;
-   padding-left: 40px;
-} */
-
-/*------ MORE THOUGHTS ----*/
-/* .more-thoughts-container p {
-   top: 3373px;
-   left: 89px;
-   width: 197px;
-   height: 25px;
-   text-align: left;
-   font-weight: bold;
-   font: Bold 21px/25px Montserrat;
-   letter-spacing: 0;
-   color: #FA382F;
-   opacity: 1;
-   margin-top: 192px;
-   padding-left: 89px;
-   padding-right: 50px;
-   padding-bottom: 10px;
-}
- .more-thoughts-heading h3 { 
-   font: Bold 22px/27px Montserrat;
-   letter-spacing: 0;
-   color: #FA382F;
-   background: #FFFFFF 0% 0% no-repeat padding-box;
-   left: 93px;
-   width: 188px;
-   height: 33px;
-   opacity: 1; 
-   margin-top: 150px;
-   flex-direction: row;
-}
-.blog-posts {
-   top: 2375px;
-   left: 38px;
-   width: 301px;
-   height: 103px;
-   opacity: 1;
-   color: #FA382F;
-} 
-.blog-sep {
-color: #FA382F;
-margin-bottom: -10px;   
-}
-.blog-oct {
-color: #FA382F;
-margin-bottom: -10px;   
-}
-.blog-nov {
-color: #FA382F;
-margin-bottom: -10px;   
-}
-.blog-dec {
-color: #FA382F;
-margin-bottom: -10px;   
-} */
-
-/* .blog-text {
-   top: 0px;
-   left: 82px;
-   width: 164px;
-   height: 20px;
-   text-align: left;
-   font: Bold 17px/29px Roboto;
-   letter-spacing: 0;
-   color: #000000;
-} */
-
-
-/*------ SKILLS -------------*/
-/* .skills-section {
-   top: 3805px;
-   left: 0px;
-   width: 375px;
-   /*height: 774px;
-   background: #F4F4F4 0% 0% no-repeat padding-box;
-   opacity: 1;
-   margin-top: 70px;
-   padding-top: 10px;
-} */
-
-/*----- container-background-grey---*/
-/* .container-skills {
-   display: flex;
-   justify-content: center;
-   flex-wrap: wrap;
-   width: 100%;
-   top: 3805px;
-   left: 0px;
-   width: 375px;
-   height: 570px;
-   background: #F4F4F4 0% 0% no-repeat padding-box;
-   opacity: 1;
-   align-content: flex-start;
-   padding-top: 5px;
-}
-
-.code-header {
-color: #FA382F;
-}
-
-.toolbox-header {
-color: #FA382F;
-}
-
-.more-header {
-color: #FA382F;
-}
-
-.upcoming-header {
-color: #FA382F;
-}
-
-.skills p {
-   top: 3868px;
-   left: 148px;
-   width: 78px;
-   height: 27px;
-   text-align: center;
-   font: Bold 22px/27px Montserrat;
-   letter-spacing: 0;
-   color: #FFFFFF;
-   opacity: 1;
-   padding-top: 20px;
-}
-
-.skills p {
-   top: 1269px;
-   left: 53px;
-   width: 78px;
-   height: 20px;
-   /* UI Properties 
-   background: #FA382F 0% 0% no-repeat padding-box;
-   opacity: 1;
-   margin-top: 59px;
-   margin-left: 148px;
-   margin-right: 58px;
-   color: #FFFFFF;
-   padding: 7px;
-   padding-top: 2px;
-}
-
-.skills-content {
-   display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-   width: 100%;
-}
-
-li {
-   list-style-type: none;
-   text-align: center;
-   padding:3px;
-} */
-
-/*---- FOR MORE ----*/
-/* .for-more-section {
-   top: 0px;
-   left: 0px;
-   width: 375px;
-   height: 230px;
-   /* UI Properties 
-   background: #FFFFFF 0% 0% no-repeat padding-box;
-   opacity: 1;
-   padding-top: 50px;
-}
-
-.for-more-header {
-   top: 4649px;
-   left: 123px;
-   width: 126px;
-   height: 27px;
-   text-align: center;
-   font: Bold 22px/27px Montserrat;
-   letter-spacing: 0;
-   color: #FFFFFF;
-   opacity: 1;
-   padding-left: 125px;
-}
-
-.for-more-header p {
-   top: 4646px;
-   left: 122px;
-   width: 131px;
-   height: 30px;
-   background: #FA382F 0% 0% no-repeat padding-box;
-   opacity: 1;
-   padding-top: 2px;   
-} */
-
-/*--- RED ICONS - LinkedIn/GitHub/Stack.O ---*/
-/* .icon-container-red {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin-right: 0%;
-  /*position: relative;*/
-  /* z-index: 1;
-  bottom: 400px;
-}
-
-.icon-red {
-  margin-top: 10%;
-  width: 40px;
-  height: 39px;
-  border-radius: 100%;
-  border: 2px solid #FA382F;
-  margin-left: 7px;
- 
-}
-
-.iconImg-red {
-  color: #FA382F;
-  position: relative;
-  top: 7px;
-  left: 10px;
-  width: 20px; */
-  /*height: 20px;*/
-}
-
-/* .icon-text-red {
-   color: #FA382F;
-   display: inline-flex;
-   font-size: 13px;
-   font-weight: bold;
-}
-
-.icon-red-text-linkedin {
-   padding-left: 57px;
-}
-   
-.icon-red-text-github {
-   padding-left: 50px;
-}
-.icon-red-text-stack {
-   padding-left: 28px;
-}  */
-
-/*------ CONTACT INFO -----*/
-/* .contact-info-baseline {
-   top: 4875px;
-   left: -3px;
-   width: 378px;
-   height: 270px;
-   opacity: 1;
-   background-color: blue;
-   text-align: center;
-   letter-spacing: 0;
-   color: #FFFFFF;
-
-}
-p.contact-text {
-   top: 4938px;
-   left: 135px; */
-   /*width: 106px;
-   height: 25px;
-   font: Bold 21px/25px Montserrat;
-   padding-top: 60px;
-}
-p.name-text {
-   top: 0px;
-   left: 92px;
-   /*width: 118px;*/
-   /* height: 20px;
-   text-align: center;
-   font: Bold 17px/29px Roboto;
-}
-
-p.number-text {
-   top: 29px;
-   left: 90px;
-   height: 20px;
-}
-
-p.email-text {
-   top: 29px;
-   left: 90px;
-   height: 20px; 
-} 
-
-
-/* ---- MOBILE ---- */
-/* @media (min-width: 375px) and (max-width: 667px) {
-  body {
-    width: 100%;
-   }
-}
-
-/* ---- TABLET ---- */
-/* @media (min-width: 668px) and (max-width: 1023px) {
-  body {
+  filter: brightness(90%);
   width: 100%;
-   }
-} */
-
-/* ---- DESKTOP ---- */ 
-/* @media (min-width: 1024px) {
-   body {
-      width: 100%;
-   }
-
-header {
-   background-position: center;
-   background-repeat: no-repeat;
-   }
-
-
-.header-text-container {
-   margin-left:150px;
-   margin-top: 30px;
-   }
-
-.icon-container {
-   margin-right: 300px;
-   }
-  /* float: right;
-   /*object-position: right;*/
-
-/* .profile-image img {
-   background-position: center;
-   left: 750px; 
-   width: 220px;
-   height: 220px;
-   background: transparent url(/assets/petra.jpg) 0% 0% no-repeat padding-box;
-   border: 3px solid #FFFFFF;
-   opacity: 1;  
-   position: absolute;
-   margin-top: -50px;
-   }  
-
-.summary.section {
-   width: 100%;
-   }
-
-.summary-section p { 
-   top: 495px;
-   left: 616px;
-   width: auto;
-   height: 152px;
-   text-align: left; 
-   padding-left: 50px;
-   }
-
-p.about-me-text {
-   padding-left: 250px;
-   padding-right: 250px;
-   padding-top: 80px;   
-   }
- 
-.tech-section {
-   height: 58px;
-   padding-left: 25%;
-   align-items: center;  */
-   /*margin-left: 150px;
-   }
-} 
-/*.tech-languages {
-
-   /*flex-direction: row;
-   display: flex;
-   flex-grow: 1;
-   display: flex;
-   flex-wrap: wrap;
-   padding-left: 200px;
-   padding-right: 210px;
-   }
-
-/*.featured-heading {
-   width: 100%;
-   display: flex;
-   width: 100%;
-   flex-wrap: wrap
-   
-   }
-
-/*.featured-container {
-   display: flex;
-   width: 100%;
-   flex-wrap: wrap;
-   }*/
+  max-width: 500px;
+  max-height: 500px;
+  align-items: center;
 }
 
+.projects-info p {
+  font-size: 16px;
+}
 
+.language {
+  background-color: #fddfe7;
+  display: inline;
+  margin: 10px;
+  margin-left: 0px;
+  padding: 4px;
+}
 
+.language p {
+  margin: 0;
+  text-align: center;
+}
+
+.other-projects .projects-info {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+
+.thought img {
+  width: 100%;
+  max-width: 450px;
+  max-height: 500px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.thought-date {
+  font: 400 17px/29px Roboto;
+  color: #fa382f;
+  padding-top: 10px;
+  margin: 0;
+}
+
+.thought-headline p {
+  font: 700 21px/32px Roboto;
+  margin: 0;
+}
+
+.thought-teaser p {
+  /* text-align: left; */
+  font: 400 17px/32px Roboto;
+}
+
+.more-thoughts {
+  width: 80%;
+}
+
+.more-thoughts span {
+  font: 500 17px/29px Roboto;
+  color: red;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.more-thoughts p {
+  font: 700 17px/29px Roboto;
+  text-align: center;
+  justify-content: center;
+}
+
+.skills {
+  display: flex;
+  flex-flow: wrap;
+  width: 80%;
+}
+
+.list-header {
+  font: 700 17px/29px Roboto;
+  color: #fa382f;
+  padding-top: 10px;
+}
+
+.skills-box ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  width: 30%;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.iconCircle {
+  width: 59px;
+  height: 59px;
+  border: 3px solid #fa382f;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconImg {
+  width: 22px;
+  height: 22px;
+}
+
+footer {
+  top: 4875px;
+  left: 36px;
+  width: 378px;
+  height: 270px;
+  font-size: 15px;
+  margin-right: 35px;
+  background-color: blue;
+  color: #ffffff;
+}
+.contact {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact h2 {
+  background-color: transparent;
+}
+
+.contact h3 {
+  color: #fff;
+}
+
+.contact p {
+  color: #fff;
+}
+
+/*******MEDIA QUERIES *********/
+
+@media (min-width: 650px) {
+  .header-icons,
+  .header-profile {
+    align-self: flex-end;
+  }
+
+  .header-profile {
+    margin-bottom: -50px;
+  }
+
+  .box {
+    padding: 60px 0;
+  }
+
+  .summary-box p {
+    text-align: left;
+  }
+
+  .featured-projects,
+  .my-thoughts {
+    width: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .projects,
+  .thought {
+    width: 40%;
+    flex-grow: 1;
+    margin: 20px;
+  }
+
+  .skills ul {
+    width: 20%;
+  }
+}
