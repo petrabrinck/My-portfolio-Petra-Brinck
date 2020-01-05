@@ -35,51 +35,14 @@ p {
   line-height: 2;
   color: #000000;
 }
+
 header {
-   /* font-family: 'Montserrat', sans-serif; */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/andras-vas.jpg");
   background-repeat: no-repeat;
-  /* To make the hero picture cover the screen */
   background-size: cover;
   background-position: center;
-  /* The image change size on all screens */
 }
 
-
-/* /* .portfolio-name {
-   display: flex;
-   flex-direction: row;
-   margin-bottom: -10px;
-}  
-
-p.portfolio {
-   text-align: left;
-   font-family: 'Roboto', sans-serif;
-   font-size: 13px;
-   color: #fff;
-  
-   display: flex;
-   flex-direction: row;
-   text-shadow: 2px 2px 2px grey;
-   margin-left: 180px;
-   padding-right: 15px;
-   letter-spacing: 0, 52px;
-   margin-top: 50px;
-} */
- 
- /*layout properties */
- /* p.name {
-   font-family: 'Roboto', sans-serif;
-   font-size: 13px;
-   font-weight: bold;
-   color: #fff;
-   opacity: 1;
-   width: 100%;
-   /* text-shadow: 2px 2px 2px grey; 
-   letter-spacing: 0, 52px;
-   margin-top: 50px;
-} */
- 
 /*---- pic petra ----*/
 
 .hero-container {
@@ -93,7 +56,7 @@ p.portfolio {
 }
 
 .header-label {
-  margin: 30 0px;
+  margin: 40 0px;
 }
 
 .header-label p {
@@ -154,8 +117,27 @@ p.portfolio {
   text-align: center;
 }
 
+.intend {
+  position: relative;
+  top: -7px;
+  font-weight: 700;
+  color: red;
+}
+.circle {
+width: 7px;
+height: 7px;
+padding: 5px;
+position: relative;
+margin-right: 5px;
+top: 2px;
+background-color: red;
+border-radius: 50%;
+display: inline-block;
+}
+
 .hero-text {
   font: 700 17px/19px Montserrat;
+  color: #fa382f;
 }
 
 .projects,
@@ -170,9 +152,11 @@ p.portfolio {
 .projects img {
   filter: brightness(90%);
   width: 100%;
-  max-width: 500px;
-  max-height: 500px;
-  align-items: center;
+  width: 450px;
+  height: 400px;
+  /* max-width: 500px;
+  max-height: 500px; */
+  /* align-items: center; */
 }
 
 .projects-info p {
@@ -218,7 +202,6 @@ p.portfolio {
 }
 
 .thought-teaser p {
-  /* text-align: left; */
   font: 400 17px/32px Roboto;
 }
 
@@ -284,6 +267,46 @@ p.portfolio {
   height: 22px;
 }
 
+/* .IconText {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  padding: 30px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fa382f;
+} */
+/* .LinkedInText { */
+  /* display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around; */
+  /* align-items: left;
+  padding: 30px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fa382f;
+} */
+/* .GithubText { */
+  /* display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around; */
+  /* align-items: center;
+  padding: 30px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fa382f;
+}
+.StackOverflowText { */
+  /* display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around; */
+  /* align-items: right;
+  padding: 30px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fa382f;
+} */
 footer {
   top: 4875px;
   left: 36px;
@@ -304,17 +327,25 @@ footer {
 
 .contact h2 {
   background-color: transparent;
+  font-family: 'Montserrat';
+  
 }
 
 .contact h3 {
   color: #fff;
+  font-size: 16px;
+  margin-bottom: 12px;
+  font-weight: lighter;
 }
 
 .contact p {
   color: #fff;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  margin: 5px;
 }
 
-/*******MEDIA QUERIES *********/
+/***   MEDIA QUERIES   ***/
 
 @media (min-width: 650px) {
   .header-icons,
