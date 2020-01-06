@@ -159,7 +159,7 @@ display: inline-block;
 }
 
 .featured-projects.box {
-  margin-right: -100px;
+  margin-right: -80px;
 }
 
 .projects-info p {
@@ -367,9 +367,6 @@ footer {
     text-align: left;
   }
 
-  .featured-projects.box {
-    margin-right: 100px; 
-}
   .featured-projects,
   .my-thoughts {
     width: 80%;
