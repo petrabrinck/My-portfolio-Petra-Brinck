@@ -367,6 +367,9 @@ footer {
     text-align: left;
   }
 
+  .featured-projects.box {
+  margin-right: 0px;
+}
   .featured-projects,
   .my-thoughts {
     width: 80%;
