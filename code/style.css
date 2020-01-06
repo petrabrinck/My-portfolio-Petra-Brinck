@@ -367,12 +367,14 @@ footer {
     text-align: left;
   }
 
+  .featured-projects.box {
+  margin-left: -100px;
+}
   .featured-projects,
   .my-thoughts {
     width: 80%;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 0px;
   }
 
   .projects img {
