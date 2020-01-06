@@ -138,55 +138,40 @@ display: inline-block;
 .hero-text {
   font: 700 17px/19px Montserrat;
   color: #fa382f;
-  margin-top: 6px;
-  align-self: center;
-  
-}
+  /* font-size: smaller; */
+ }
 
 .projects,
 .other-projects,
 .thought {
   width: 80%;
-  margin: 30px 0;
-  justify-content: center;
-  /* align-items: left; */
-  display: flex;
-  flex-direction: column;
-  display: inline-flex;
+  /* margin: 30px 0; */
+  margin-top: 30px;
 }
 
 .projects img {
-  /* filter: brightness(90%); */
-  width: 100%;
-  max-height: 300px;
-  max-width: 350px;
-  /* max-height: 500px;  */
-  align-self: center; 
-  /* margin-left: 30px; */
-}
-/* .projects img {
   filter: brightness(90%);
   width: 100%;
-  width: 450px;
-  height: 400px;
-  max-width: 500px;
-  max-height: 500px; 
-  align-items: center; */
-  /* margin-left: 30px; */
-/* } */
+  /* max-height: 400px;
+  max-width: 400px;
+  align-self: center; 
+  margin-left: 30px; */
+}
+
+.featured-projects.box {
+  margin-right: -100px;
+}
 
 .projects-info p {
-  font-size: 12px;
-  align-items: center;
+  font-size: 16px;
 }
 
 .language {
   background-color: #fddfe7;
   display: inline;
-  margin: 10px;
+  margin: 4px;
   margin-left: 0px;
   padding: 4px;
-
 }
 
 .language p {
@@ -202,8 +187,6 @@ display: inline-block;
 
 .thought img {
   width: 100%;
-  max-width: 450px;
-  max-height: 500px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
@@ -220,6 +203,7 @@ display: inline-block;
 }
 
 .thought-teaser p {
+  text-align: left;
   font: 400 17px/32px Roboto;
 }
 
