@@ -368,7 +368,7 @@ footer {
   }
 
   .featured-projects.box {
-  margin-left: -100px;
+    margin-right: 100px; 
 }
   .featured-projects,
   .my-thoughts {
