@@ -123,6 +123,7 @@ header {
   font-weight: 700;
   color: red;
 }
+
 .circle {
 width: 7px;
 height: 7px;
@@ -330,7 +331,6 @@ footer {
 .contact h2 {
   background-color: transparent;
   font-family: 'Montserrat';
-  
 }
 
 .contact h3 {
