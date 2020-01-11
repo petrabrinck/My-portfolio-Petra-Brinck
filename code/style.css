@@ -4,6 +4,7 @@ html {
    margin: 0;
    background: #ffff;
    overflow-x: hidden;
+   text-decoration: none;
 } 
 
 h1 {
@@ -196,6 +197,7 @@ display: inline-block;
   color: #fa382f;
   padding-top: 10px;
   margin: 0;
+  /* background-color: yellow; */
 }
 
 .thought-headline p {
@@ -270,46 +272,6 @@ display: inline-block;
   height: 22px;
 }
 
-/* .IconText {
-  display: inline-flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-content: center;
-  padding: 30px;
-  font-size: 12px;
-  font-weight: bold;
-  color: #fa382f;
-} */
-/* .LinkedInText { */
-  /* display: inline-flex;
-  flex-direction: row;
-  justify-content: space-around; */
-  /* align-items: left;
-  padding: 30px;
-  font-size: 12px;
-  font-weight: bold;
-  color: #fa382f;
-} */
-/* .GithubText { */
-  /* display: inline-flex;
-  flex-direction: row;
-  justify-content: space-around; */
-  /* align-items: center;
-  padding: 30px;
-  font-size: 12px;
-  font-weight: bold;
-  color: #fa382f;
-}
-.StackOverflowText { */
-  /* display: inline-flex;
-  flex-direction: row;
-  justify-content: space-around; */
-  /* align-items: right;
-  padding: 30px;
-  font-size: 12px;
-  font-weight: bold;
-  color: #fa382f;
-} */
 footer {
   top: 4875px;
   left: 36px;
