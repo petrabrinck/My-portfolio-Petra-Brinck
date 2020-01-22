@@ -126,15 +126,15 @@ header {
 }
 
 .circle {
-width: 7px;
-height: 7px;
-padding: 5px;
-position: relative;
-margin-right: 5px;
-top: 2px;
-background-color: red;
-border-radius: 50%;
-display: inline-block;
+  width: 7px;
+  height: 7px;
+  padding: 5px;
+  position: relative;
+  margin-right: 5px;
+  top: 2px;
+  background-color: red;
+  border-radius: 50%;
+ display: inline-block;
 }
 
 .hero-text {
@@ -150,7 +150,9 @@ display: inline-block;
   /* margin: 30px 0; */
   margin-top: 30px;
 }
-
+a:link {
+  text-decoration: none;
+}
 .projects img {
   filter: brightness(90%);
   width: 100%;
@@ -166,6 +168,7 @@ display: inline-block;
 
 .projects-info p {
   font-size: 16px;
+  text-decoration: none;
 }
 
 .language {
@@ -179,12 +182,14 @@ display: inline-block;
 .language p {
   margin: 0;
   text-align: center;
+  text-decoration: none;
 }
 
 .other-projects .projects-info {
   width: 100%;
   text-align: center;
   justify-content: center;
+  text-decoration: none;
 }
 
 .thought img {
