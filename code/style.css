@@ -14,20 +14,21 @@ h1 {
 h2 {
   font: Bold 21px/25px Montserrat;
   color: #fff;
-  background-color: #fa382f;
+  background-color: #a92665;
+  /* background-color: #fa382f; */
   padding: 0 4px;
 }
 
 h3 {
   font: Bold 21px/25px Montserrat;
-  color: #fa382f;
+  color: #a92665;
   margin: 0px;
   text-align: center;
 }
 
 h4 {
   font: 400 17px/29px Roboto;
-  color: #fa382f;
+  color: #a92665;
   text-align: left;
 }
 
@@ -104,7 +105,7 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 30px 0;
+  padding: 20px 0;
 }
 
 .grey {
@@ -122,7 +123,7 @@ header {
   position: relative;
   top: -7px;
   font-weight: 700;
-  color: red;
+  color: #a92665;
 }
 
 .circle {
@@ -132,14 +133,14 @@ header {
   position: relative;
   margin-right: 5px;
   top: 2px;
-  background-color: red;
+  background-color: #a92665;
   border-radius: 50%;
  display: inline-block;
 }
 
 .hero-text {
   font: 700 17px/19px Montserrat;
-  color: #fa382f;
+  color: #a92665;
   /* font-size: smaller; */
  }
 
@@ -163,7 +164,9 @@ a:link {
 }
 
 .featured-projects.box {
-  margin-right: -80px;
+  margin-left: 40px;
+  margin: 0 auto;
+  padding-bottom: 20px;
 }
 
 .projects-info p {
@@ -177,6 +180,7 @@ a:link {
   margin: 4px;
   margin-left: 0px;
   padding: 4px;
+  color: rgb(38, 37, 37)
 }
 
 .language p {
@@ -192,6 +196,7 @@ a:link {
   text-decoration: none;
 }
 
+
 .thought img {
   width: 100%;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
@@ -199,7 +204,8 @@ a:link {
 
 .thought-date {
   font: 400 17px/29px Roboto;
-  color: #fa382f;
+  color:#a92665;
+  /* color:#a92665; */
   padding-top: 10px;
   margin: 0;
   /* background-color: yellow; */
@@ -214,14 +220,18 @@ a:link {
   text-align: left;
   font: 400 17px/32px Roboto;
 }
-
+.myThoughts-box.box {
+  padding-bottom: 0px;
+}
 .more-thoughts {
   width: 80%;
+  margin: 0 auto;
+  padding-bottom: 50px;
 }
 
 .more-thoughts span {
   font: 500 17px/29px Roboto;
-  color: red;
+  color: #a92665;
   text-align: center;
   justify-content: center;
 
@@ -241,8 +251,9 @@ a:link {
 
 .list-header {
   font: 700 17px/29px Roboto;
-  color: #fa382f;
+  color: #a92665;
   padding-top: 10px;
+  margin-bottom: 10px;
 }
 
 .skills-box ul {
@@ -263,7 +274,7 @@ a:link {
 .iconCircle {
   width: 59px;
   height: 59px;
-  border: 3px solid #fa382f;
+  border: 3px solid #a92665;
   border-radius: 50%;
   margin-right: 20px;
   margin-left: 20px;
@@ -284,7 +295,8 @@ footer {
   height: 270px;
   font-size: 15px;
   margin-right: 35px;
-  background-color: blue;
+  background-color: #2D132C;
+  /* background-color: blue; */
   color: #ffffff;
 }
 .contact {
@@ -303,7 +315,7 @@ footer {
 .contact h3 {
   color: #fff;
   font-size: 16px;
-  margin-bottom: 12px;
+  /* margin-bottom: 12px; */
   font-weight: lighter;
 }
 
