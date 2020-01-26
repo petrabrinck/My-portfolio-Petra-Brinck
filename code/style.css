@@ -346,18 +346,17 @@ footer {
 /***   MEDIA QUERIES   ***/
 
 @media (min-width: 650px) {
-  .header-icons,
-  .header-profile {
-    align-self: flex-end;
+  .header-icons, .header-profile { 
+  align-self: flex-end;
   }
 
   .header-profile {
     margin-bottom: -50px;
   }
 
-  .box {
+  /* .box {
     padding: 60px 0;
-  }
+  } */
 
   .summary-box p {
     text-align: left;
