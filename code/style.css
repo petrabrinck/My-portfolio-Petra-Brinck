@@ -341,7 +341,7 @@ footer {
 
 /***   MEDIA QUERIES   ***/
 
-@media(min-width: 650px) {
+@media (min-width: 650px) {
 .header-icons, .header-profile { 
   align-self: flex-end;
 }
@@ -376,3 +376,4 @@ footer {
     width: 20%;
   }
 }
+
