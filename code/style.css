@@ -362,10 +362,10 @@ footer {
     text-align: left;
   }
   .featured-projects.box {
-    align-content: center;
-    justify-items: center;
+    padding-right: 30px;
   }
-  
+ 
+
   .featured-projects,
   .my-thoughts {
     width: 80%;
