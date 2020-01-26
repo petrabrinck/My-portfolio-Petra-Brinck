@@ -351,17 +351,21 @@ footer {
   }
 
   .header-profile {
-    margin-bottom: -50px;
+    margin-bottom: -40px;
   }
 
-  /* .box {
+  .box {
     padding: 60px 0;
-  } */
+  } 
 
   .summary-box p {
     text-align: left;
   }
-
+  .featured-projects.box {
+    align-content: center;
+    justify-items: center;
+  }
+  
   .featured-projects,
   .my-thoughts {
     width: 80%;
