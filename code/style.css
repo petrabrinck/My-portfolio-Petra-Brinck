@@ -1,11 +1,11 @@
-body, 
+body,
 html {
-   font-family: 'Roboto', sans-serif;
-   margin: 0;
-   background: #ffff;
-   overflow-x: hidden;
-   text-decoration: none;
-} 
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background: #ffff;
+  overflow-x: hidden;
+  text-decoration: none;
+}
 
 h1 {
   font-size: 49px;
@@ -39,7 +39,8 @@ p {
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/HeroImage.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('./assets/HeroImage.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -139,7 +140,7 @@ header {
   top: 2px;
   background-color: #a92665;
   border-radius: 50%;
- display: inline-block;
+  display: inline-block;
 }
 
 .hero-text {
@@ -147,7 +148,7 @@ header {
   color: #a92665;
   margin-top: 5px;
   /* font-size: smaller; */
- }
+}
 
 .projects,
 .other-projects,
@@ -157,6 +158,11 @@ header {
   margin-top: 30px;
 }
 
+.projects {
+  display: flex;
+  justify-content: center;
+}
+
 a:link {
   text-decoration: none;
 }
@@ -164,11 +170,10 @@ a:link {
   /* filter: brightness(90%); */
   width: 300px;
   height: 200px;
-
 }
 
 .featured-projects.box {
-  margin-left: 35px;
+  /* margin-left: 35px; */
   /* margin: 0 auto; */
   padding-bottom: 10px;
 }
@@ -185,7 +190,7 @@ a:link {
   margin: 4px;
   margin-left: 0px;
   padding: 4px;
-  color: rgb(38, 37, 37)
+  color: rgb(38, 37, 37);
 }
 
 .language p {
@@ -212,7 +217,7 @@ a:link {
 
 .thought-date {
   font: 400 17px/29px Roboto;
-  color:#a92665;
+  color: #a92665;
   /* color:#a92665; */
   padding-top: 10px;
   margin: 0;
@@ -226,7 +231,7 @@ a:link {
 
 .thought-teaser p {
   text-align: left;
-  font: 400 17px/32px Roboto; 
+  font: 400 17px/32px Roboto;
 }
 
 .myThoughts-box.box {
@@ -304,7 +309,7 @@ footer {
   height: 270px;
   font-size: 15px;
   margin-right: 35px;
-  background-color: #2D132C;
+  background-color: #2d132c;
   /* background-color: blue; */
   color: #ffffff;
 }
@@ -342,24 +347,29 @@ footer {
 /***   MEDIA QUERIES   ***/
 
 @media (min-width: 650px) {
-.header-icons, .header-profile { 
-  align-self: flex-end;
-}
+  .header-icons,
+  .header-profile {
+    align-self: flex-end;
+  }
 
-.header-profile {
-  margin-bottom: -50px;
-}
+  .header-profile {
+    margin-bottom: -50px;
+  }
 
-.summary-box p {
-  text-align: left;
-}
+  .summary-box p {
+    text-align: left;
+  }
 
-.featured-projects,
-.my-thoughts {
-  width: 80%;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
+  .featured-projects,
+  .my-thoughts {
+    width: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .featured-projects.box {
+    margin-left: 35px;
+  }
 
   .projects img {
     width: 80%;
@@ -376,4 +386,3 @@ footer {
     width: 20%;
   }
 }
-
