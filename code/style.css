@@ -181,8 +181,15 @@ a:link {
 
 .projects-info p {
   font-size: 16px;
+  /* max-width: 320px */
+  /* width: 70%; */
+  /* max-width: fit-content; */
   /* text-decoration: none; */
   /* text-decoration-color: black; */
+}
+.project-text {
+  max-width: 330px;
+  justify-content: center;
 }
 
 .language {
@@ -367,7 +374,10 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
   }
+  /* .projects-info {
+    
 
+  } */
   /* .featured-projects.box {
     margin-left: 35px;
   } */
