@@ -125,6 +125,9 @@ header {
   text-align: center;
 }
 
+.tech-box {
+  margin: 20px 0px 20px 0px;
+}
 .intend {
   position: relative;
   top: -7px;
@@ -147,7 +150,7 @@ header {
 .hero-text {
   font: 700 17px/19px Montserrat;
   color: #a92665;
-  margin-top: 5px;
+  margin-top: 8px;
   /* font-size: smaller; */
 }
 
@@ -174,21 +177,15 @@ a:link {
 }
 
 .featured-projects.box {
-  /* margin-left: 35px; */
-  /* margin: 0 auto; */
   padding-bottom: 10px;
 }
 
 .projects-info p {
   font-size: 16px;
-  /* max-width: 320px */
-  /* width: 70%; */
-  /* max-width: fit-content; */
-  /* text-decoration: none; */
-  /* text-decoration-color: black; */
 }
+
 .project-text {
-  max-width: 330px;
+  max-width: 340px;
   justify-content: center;
 }
 
@@ -204,13 +201,17 @@ a:link {
 .language p {
   margin: 0;
   text-align: center;
-  /* text-decoration: none; */
 }
 
 .project-languages {
   margin-bottom: 30px;
 }
 
+.other-project-text {
+  align-items: center ;
+  text-align: center;
+
+}
 .other-projects .projects-info {
   width: 100%;
   text-align: center;
@@ -226,10 +227,8 @@ a:link {
 .thought-date {
   font: 400 17px/29px Roboto;
   color: #a92665;
-  /* color:#a92665; */
   padding-top: 10px;
   margin: 0;
-  /* background-color: yellow; */
 }
 
 .thought-headline p {
@@ -337,7 +336,6 @@ footer {
 .contact h3 {
   color: #fff;
   font-size: 16px;
-  /* margin-bottom: 12px; */
   font-weight: lighter;
 }
 
@@ -374,13 +372,7 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
   }
-  /* .projects-info {
-    
 
-  } */
-  /* .featured-projects.box {
-    margin-left: 35px;
-  } */
   .projects img {
     width: 80%;
   }
